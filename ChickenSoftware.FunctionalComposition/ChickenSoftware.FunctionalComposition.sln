@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChickenSoftware.MathWorker.CS", "MathWorker.CS\ChickenSoftware.MathWorker.CS.csproj", "{60FE2668-81B4-46E7-A643-496E6D80DCC2}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ChickenSoftware.MathWorker.FS", "MathWorker.FS\ChickenSoftware.MathWorker.FS.fsproj", "{54B4B0E2-70EF-4BCB-A40C-944A97BC2E3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60FE2668-81B4-46E7-A643-496E6D80DCC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60FE2668-81B4-46E7-A643-496E6D80DCC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60FE2668-81B4-46E7-A643-496E6D80DCC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60FE2668-81B4-46E7-A643-496E6D80DCC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54B4B0E2-70EF-4BCB-A40C-944A97BC2E3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54B4B0E2-70EF-4BCB-A40C-944A97BC2E3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54B4B0E2-70EF-4BCB-A40C-944A97BC2E3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54B4B0E2-70EF-4BCB-A40C-944A97BC2E3D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
