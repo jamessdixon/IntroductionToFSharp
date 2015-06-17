@@ -53,10 +53,9 @@ namespace CustomerProcessor.CS
                     SqlParameter parameter = new SqlParameter("customer", customer);
                     command.Parameters.Add(parameter);
                     sqlConnection.Open();
-                    command.ExecuteNonQuery();
+                    return command.ExecuteNonQuery();
                 }
             }
-            return 0;
         }
 
         internal void EmailCustomerProcssedNotification(Customer customer, String emailReceipiant)
@@ -69,10 +68,9 @@ namespace CustomerProcessor.CS
             String hostName = ConfigurationManager.AppSettings["smtpAddress"];
             using(SmtpClient client = new SmtpClient(hostName))
             {
-                MailMessage mailMessage = new MailMessage("postmaster@aetna.com",emailReceipiant,subject,message.ToString());
+                MailMessage mailMessage = new MailMessage("postmaster@chickensoftware.com",emailReceipiant,subject,message.ToString());
                     client.Send(mailMessage);
             }
         }
-
     }
 }

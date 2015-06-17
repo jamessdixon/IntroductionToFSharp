@@ -16,12 +16,4 @@ namespace CustomerProcessor.CS
         public String State { get; set; }
         public String ZipCode { get; set; }
     }
-
-    public enum MyEnum
-    {
-        UnknownError = -2,
-        OutOfDiskSpaceError = -1,
-        StillRunning = 0,
-        Successful = 1
-    }
 }
